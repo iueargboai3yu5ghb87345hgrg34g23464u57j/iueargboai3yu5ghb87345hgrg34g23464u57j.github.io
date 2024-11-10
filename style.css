@@ -1,0 +1,26 @@
+*{font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;padding:0;margin:0}
+body{background-color:#202124}
+.navbar{-webkit-transition:250ms all ease;transition:250ms all ease;text-align:center;padding-top:1em;padding-bottom:1em;display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-pack:distribute;justify-content:space-around;width:100%;background-color:#34393f}
+.navbar a{text-decoration:none;color:#fff}.navbar a:hover{color:#000000}
+.navbar .navlist{color:#fff;display:-webkit-box;display:-ms-flexbox;display:flex;gap:50px;list-style-type:none;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;padding-top:4px}
+.navbar .navlist li{text-decoration:none}.navbar .navlist li a{background:0 0;border:none;font-size:17px;color:#fff}
+.navbar .navlist li a:hover{color:#000000;cursor:pointer;text-shadow:2px 2px #000}.mainpage{text-align:center;color:#fff}
+.navbar h4 a{text-decoration:none;width:1em;padding:.5em 2em .5em 2em;background:0 0;color:#fff;font-size:15px;border-radius:10em;border-color:#fff;border-style:solid;-webkit-transition:250ms all ease;transition:250ms all ease}
+.navbar h4 a:hover{background:#fff;color:#000;cursor:pointer}
+.mainpage .topscroll{margin-top:29vh}.mainpage h3{opacity:.5}.mainpage h1{margin-top:-1vh;font-size:50px}.mainpage h4{margin-top:5vh}
+.mainpage h4 a{text-decoration:none;width:4em;padding:.5em 2em .5em 2em;background:0 0;color:#fff;font-size:15px;border-radius:10em;border-color:#fff;border-style:solid;-webkit-transition:250ms all ease;transition:250ms all ease}
+.mainpage h4 a:hover{background:#fff;color:#000;cursor:pointer}
+.projects{margin-top:50vh;text-align:center}
+.projects h1{font-size:40px;color:#fff}
+.projects ul{text-align:center;margin-top:3em;list-style-type:none;display:-ms-grid;display:grid;-ms-grid-columns:(minmax(20em,1fr)) [auto-fit];grid-template-columns:repeat(auto-fit,minmax(20em,1fr));gap:10px}
+.projects ul li{width:60%;padding:.5em 2em .5em 2em;border-radius:1.5em;-webkit-box-shadow:2px 2px 2px 2px grey;box-shadow:2px 2px 2px 2px #000;margin-bottom:2em;margin-left:auto;margin-right:auto;-webkit-transition:.5s all ease-in-out;transition:.5s all ease-in-out}
+.projects ul li:hover{text-shadow:2px 2px #000}.projects ul li a{text-decoration:none;color:#fff}
+.projects ul li:hover{-webkit-box-shadow:2px 2px 5px 5px #000;box-shadow:2px 2px 5px 5px #000}html{scroll-behavior:smooth}
+.about{text-align:center;margin-top:10em;color:#fff}
+.about h1{font-size:40px}
+.about p{margin-top:3em;font-size:20px}
+.footer{text-align:center;margin-top:10em;margin-bottom:1em;color:#fff;opacity:.5}
+.footer h2{font-size:12px}@media screen and (min-width:1400px){
+.mainpage .topscroll{margin-top:10vh}}  
+.odrabiamce {background: linear-gradient(to right, #6666ff, #0099ff , #00ff00, #ff3399, #6666ff);-webkit-background-clip: text;background-clip: text;color: transparent;animation: rainbow_animation 6s ease-in-out infinite;background-size: 400% 100%;}
+@keyframes rainbow_animation {0%,100% {background-position: 0 0;}50% {background-position: 100% 0;}}
